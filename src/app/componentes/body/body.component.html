@@ -1,0 +1,18 @@
+<form [formGroup]="dataForm" (ngSubmit)="onSubmit()" class="m-5">
+  <div class="mb-3">
+    <label   class="form-label">Numero de Documento</label>
+    <input id="documento" type="text" (blur)="onBlur()" formControlName="documento" placeholder="Ingresa tu documento" class="form-control">
+    <span class="alert-danger" *ngIf="!dataForm.controls['documento'].valid && dataForm.controls['documento']?.touched">Por favor ingrese un documento valido</span>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Nombre</label>
+    <input type="text" formControlName="nombre" placeholder="Ingresa tu nombre" class="form-control">
+    <span class="alert-danger" *ngIf="!dataForm.controls['nombre'].valid && dataForm.controls['nombre']?.touched">Por favor ingrese un nombre valido</span>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Documento Cifrado</label>
+    <input #encrypted id="documentoCifrado" disabled type="text"  class="form-control">
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!dataForm.valid">Submit</button>
+  <div class="form-text">Nunca compartiremos tus datos sin tu consentimiento</div>
+</form>
