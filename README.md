@@ -17,6 +17,9 @@ Reactive forms de angular, provee distintos metodos por los cuales validar el es
 ### Vista del formulario con data invalida
 ![image](https://user-images.githubusercontent.com/45348200/102944491-f1ecc880-4488-11eb-826b-5e129bbeb162.png)
 
+### Vista en pantalla de la respuesta del servidor
+![image](https://user-images.githubusercontent.com/45348200/102945808-db487080-448c-11eb-8c48-9ff681029e6f.png)
+
 # Requeridos: NodeJs
 ## Instalar NodeJs
 ### Si estas en Linux/MacOs
@@ -28,4 +31,4 @@ https://nodejs.org/es/download/
 ### 1. Descargar/clonar el repositorio
 ### 2. Ingresar a la carpeta desde bash (linux/MacOs) o cmd (windows)
 ### 3. correr el comando npm i
-### 4. correr el comando npm start
+### 4. correr el comando ng serve
