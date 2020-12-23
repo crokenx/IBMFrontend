@@ -31,4 +31,4 @@ https://nodejs.org/es/download/
 ### 1. Descargar/clonar el repositorio
 ### 2. Ingresar a la carpeta desde bash (linux/MacOs) o cmd (windows)
 ### 3. correr el comando npm i
-### 4. correr el comando npm start
+### 4. correr el comando ng serve
