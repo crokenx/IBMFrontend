@@ -17,8 +17,8 @@ Reactive forms de angular, provee distintos metodos por los cuales validar el es
 ### Vista del formulario con data invalida
 ![image](https://user-images.githubusercontent.com/45348200/102944491-f1ecc880-4488-11eb-826b-5e129bbeb162.png)
 
-### Vista desde herramientas de desarrollo de google chrome de la respuesta de la API
-![image](https://user-images.githubusercontent.com/45348200/102944893-22813200-448a-11eb-9a90-d6b9a3a8192a.png)
+### Vista en pantalla de la respuesta del servidor
+![image](https://user-images.githubusercontent.com/45348200/102945808-db487080-448c-11eb-8c48-9ff681029e6f.png)
 
 # Requeridos: NodeJs
 ## Instalar NodeJs
