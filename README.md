@@ -9,6 +9,8 @@
 ## Descripcion reactive forms
 Reactive forms de angular, provee distintos metodos por los cuales validar el estado de los campos que componen un formulario, volviendolo estricto, es decir, recibiendo solo el tipo de data requerida por el formulario, evitando de esta manera el envio de datos erroneos a las API's que correspondan. Más información en: https://angular.io/guide/reactive-forms
 
+![image](https://user-images.githubusercontent.com/45348200/102944200-1a27f780-4488-11eb-8672-fb0ffd75ba9b.png)
+
 # Requeridos: NodeJs
 ## Instalar NodeJs
 ### Si estas en Linux/MacOs
