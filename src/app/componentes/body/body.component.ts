@@ -18,8 +18,11 @@ const { encriptarCampo } = require('../../FORGET_ALL/forge.all.min.js');
 export class BodyComponent implements OnInit {
   @ViewChild('encrypted') input: ElementRef;
   dataForm: FormGroup;
+  alert: boolean;
+  Message: string = '';
 
   constructor(private fb: FormBuilder, private service: HttpService) {
+    this.alert = false;
     this.dataForm = this.fb.group({
       documento: [
         '',
@@ -52,6 +55,10 @@ export class BodyComponent implements OnInit {
       name: this.dataForm.value.nombre,
     };
     console.log(formulario);
-    this.service.postForm(formulario).subscribe((res) => console.log(res));
+    this.service.postForm(formulario).subscribe((res: any) => {
+      this.alert = true;
+      console.log(res);
+      this.Message = res;
+    });
   }
 }

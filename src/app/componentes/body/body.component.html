@@ -14,5 +14,10 @@
     <input #encrypted id="documentoCifrado" disabled type="text"  class="form-control">
   </div>
   <button type="submit" class="btn btn-primary" [disabled]="!dataForm.valid">Submit</button>
+  <div *ngIf="alert" class="alert alert-primary m-3">
+   <p>
+    {{ Message }}
+   </p>
+</div>
   <div class="form-text">Nunca compartiremos tus datos sin tu consentimiento</div>
 </form>
